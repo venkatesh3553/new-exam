@@ -1,0 +1,51 @@
+.user-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.user-add-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  width: 50%;
+  height: 150px;
+  flex-wrap: wrap;
+}
+.user-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+}
+.new-add-user {
+  font-size: 18px;
+  font-family: Roboto;
+}
+.intut-box {
+  padding: 10px;
+  width: 40%;
+  border-radius: 8px;
+  border: 0px;
+  outline: none;
+}
+
+.add-button {
+  height: 36px;
+  width: 100px;
+  background-color: rgb(74, 167, 243);
+  border-radius: 10px;
+  border: 0px;
+  outline: none;
+  color: white;
+  margin-top: 10px;
+}
+.loding{
+    font-size: 25px;
+    color: green;
+    font-family: Roboto;
+}
