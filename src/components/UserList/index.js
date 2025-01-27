@@ -59,7 +59,7 @@ class UserList extends Component {
   }
 
   editTitle = (e, id) => {
-    this.setState(prevState => ({userInputTilte: e.target.value}))
+    this.setState({userInputTilte: e.target.value})
   }
 
   onEditUserDetails = async id => {

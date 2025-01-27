@@ -1,56 +1,54 @@
-.user-form-container{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid #1b1515;
-    width: 70%;
-    min-height: 200px;
-    flex-wrap: wrap;
-
+.user-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #1b1515;
+  width: 70%;
+  min-height: 200px;
+  flex-wrap: wrap;
 }
-.user-form-title{
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 10px;
+.user-form-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
-.edit-button{
-    height: 36px;
-    width: 100px;
-    background-color: rgb(74, 167, 243);
-    border-radius: 10px;
-    border: 0px;
-    outline: none;
-    color: white;
-    margin-top: 5px;
-    margin-bottom: 5px;
+.edit-button {
+  height: 36px;
+  width: 100px;
+  background-color: rgb(74, 167, 243);
+  border-radius: 10px;
+  border: 0px;
+  outline: none;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
-.delete-button{
-    height: 36px;
-    width: 100px;
-    background-color: rgb(242, 86, 94);
-    border-radius: 10px;
-    border: 0px;
-    outline: none;
-    color: white;
-    margin-top: 5px;
-    margin-bottom: 5px;
+.delete-button {
+  height: 36px;
+  width: 100px;
+  background-color: rgb(242, 86, 94);
+  border-radius: 10px;
+  border: 0px;
+  outline: none;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
-.title-buttons-container{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-   
+.title-buttons-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
-.edit-input{
-    padding: 10px;
-    width: 40%;
-    border-radius: 8px;
-    border: 0px;
-    outline: none;
-    background-color: gray;
-    color: white;
-    font-family: Roboto;
+.edit-input {
+  padding: 10px;
+  width: 40%;
+  border-radius: 8px;
+  border: 0px;
+  outline: none;
+  background-color: gray;
+  color: white;
+  font-family: Roboto;
 }
