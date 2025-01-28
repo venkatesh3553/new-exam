@@ -48,7 +48,15 @@
   border-radius: 8px;
   border: 0px;
   outline: none;
-  background-color: gray;
-  color: white;
+  background-color: rgb(234, 224, 224);
+  color: black;
   font-family: Roboto;
+}
+.edhit-pera {
+  margin-bottom: 0px;
+}
+.error-msg {
+  color: red;
+  margin-top:0px ;
+  margin-bottom:0px ;
 }

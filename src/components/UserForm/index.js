@@ -6,7 +6,7 @@ const UserForm = props => {
     onDeleteUserDetails,
     onEditUserDetails,
     editTitle,
-    editForm,
+    errorMsg,
   } = props
   const {title, id, completed} = userDetails
   const onDeleteUser = () => {
@@ -18,18 +18,25 @@ const UserForm = props => {
   const onChangeTitle = e => {
     editTitle(e, id)
   }
-  const show = () =>
+  const showInpuAndButton = () =>
     completed ? (
       <>
+        <p className="edhit-pera">Edit This </p>
         <input
           type="text"
           onChange={onChangeTitle}
           defaultValue={title}
           className="edit-input"
+          placeholder="Edit the title"
         />
         <button onClick={onEditUser} className="edit-button">
           Edit
         </button>
+        {errorMsg && (
+          <p className="error-msg">
+            Please edit the title after update this title*
+          </p>
+        )}
       </>
     ) : null
   return (
@@ -39,7 +46,7 @@ const UserForm = props => {
         <button onClick={onDeleteUser} className="delete-button">
           Delete
         </button>
-        {show()}
+        {showInpuAndButton()}
       </li>
     </>
   )
